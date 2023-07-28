@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Tailwindcss</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="h-screen w-screen flex items-center justify-center bg-gray-100">
+    <div class="w-80 shadow-md rounded-md p-6 space-y-4">
+        <h2 class="text-lg font-bold text-center mb-4">Login</h2>
+        <div class="space-y-4" bg-r>
+            <i class="fa-solid fa-lock" style="color: #0ea5e9;"></i><input id="email" type="text" placeholder="E-mail" class="w-full bg-gray-50 border border-gray-300 focus:ring-2 focus:ring-opacity-10 rounded px-3 py-3 text-lg text-gray-800 placeholder-gray-300 focus:outline-none transition duration-500 ease-in-out">
+            <i class="fa-solid fa-envelope" style="color: #0ea5e9;"></i><input id="password" type="text" placeholder="Senha" class="w-full bg-gray-50 border border-gray-300 focus:ring-2 focus:ring-opacity-10 rounded px-3 py-3 text-lg text-gray-800 placeholder-gray-300 focus:outline-none transition duration-500 ease-in-out">
+        </div>
+        <div>
+            <div class="text-right"> 
+                    <a href="#" class="text-sm text-gray-500 hover:underline">Esqueci minha senha</a>
+            </div>
+        </div>
+        <div>
+            <button class="w-full text-sm bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded text-white shadow">Entrar</button>
+        </div>
+    </div>
+</body>
+</html>
